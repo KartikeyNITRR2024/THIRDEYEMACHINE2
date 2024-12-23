@@ -153,7 +153,7 @@ if __name__ == "__main__":
     if stocklist:
         attempt = 0
         max_attempts = 20
-        while attempt < max_attempts:
+        while true:
             log(f"Processing stock list. Attempt {attempt + 1}/{max_attempts}")
             num_workers = len(stocklist)
             with ThreadPoolExecutor(max_workers=num_workers) as executor:
