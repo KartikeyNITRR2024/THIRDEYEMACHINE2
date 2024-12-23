@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import time 
 from dateutil import parser
 import logging
+import json
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
